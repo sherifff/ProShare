@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProShare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_profile_details">Profile Details</string>
+    <string name="title_activity_project_details">Project Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_projects">Projects</string>
+    <string name="title_activity_create_project">Create New Project</string>
+
+    <string name="application_development_title">Application Development</string>
+    <string name="game_development_title">Game Development</string>
+    <string name="mobile_development_title">Mobile Development</string>
+    <string name="web_development_title">Web\nDevelopment</string>
+    <string name="mechanics_title">Mechanics</string>
+    <string name="design_title">Design</string>
+    <string name="music_title">Music</string>
+    <string name="film_and_animations_title">Film and Animation</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/project_list_cover"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cover"/>
+
+    <TextView
+        android:id="@+id/project_list_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/md_indigo_700"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Farm It"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_black_1000"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:text="Creator: "/>
+
+        <TextView
+            android:id="@+id/project_list_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_black_1000"
+            android:textSize="16sp"
+            android:text="Abd-Elrahman"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/project_list_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:text="A Game, where real Charakters in the World play in the real World . Seems crazy But it is easy."/>
+    <!--<TextView-->
+        <!--android:id="@+id/project_needs"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Needs: developer, Designer"/>-->
+
+</LinearLayout>
